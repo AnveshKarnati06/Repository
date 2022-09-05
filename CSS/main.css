@@ -1,0 +1,138 @@
+/*************************************
+This css file 
+**************************************/
+*{
+  box-sizing: border-box;
+}
+
+/*************************************
+ Body
+ **************************************/
+body{
+  margin:0;
+  padding:0;
+  border:0;
+  background-color:#686256;
+}
+
+/*************************************
+ Heading
+ **************************************/
+ header{
+  height: 100px;
+  background: #3e4444;
+  width:100%;
+  z-index: 12;
+  position:fixed;
+}
+
+h1{
+  margin:0; 
+  height:100px;
+  text-align:center; 
+  padding:30px;
+  font-size:70px; 
+  font-family:Courier;
+}
+
+.title{
+  width:30%;
+  float: left;
+  line-height:35px;
+}
+
+.title p{
+  text-decoration: none;
+  font-size: 35px;
+  color:rgb(10, 6, 6);
+  letter-spacing: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*************************************
+ Class "Wrapper"
+ **************************************/
+ .wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+.center {
+  text-align: center
+}
+
+.para1 {
+  font-size:35px;
+  font-family:Brush Script MT;
+}
+
+.para2 {
+  font-size:25px;
+  font-family:Courier;
+}
+
+/*************************************
+ NAVIGATION
+ **************************************/
+nav{
+  float: center;
+  line-height:100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing:4px;
+  font-size:30px;
+  margin:0 10px;
+  color: rgb(6, 6, 6);
+}
+
+/*************************************
+ Page "Main"
+ **************************************/
+ .intro{
+  height: 150px;
+  max-width: 100%;
+  background: #3e4444;
+}
+
+.profile{
+  height: 950px;
+  max-width: 100%;
+  background-color:#686256;
+}
+
+.text{
+  width:250px;
+  height:275px;
+  background: #fff;
+  opacity: 0;
+  font-family: Courier;
+  padding:115px 30px;
+}
+
+.myPhoto{
+  width:300px;
+  height:300px;
+  text-align: center;
+}
+
+/*************************************
+ Page "Contact"
+ **************************************/
+.contact{
+  height: 400px;
+  max-width: 100%;
+  background-color: #686256;
+}
+
+.split{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
